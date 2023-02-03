@@ -29,7 +29,7 @@ Set-PSFzfOption -PSReadLineChordProvider "Ctrl+f" -PSReadLineChordReverseHistory
 # create on ~/.config/powershell nova.omp.json file
 # add inside theme settings
 function Get-ScriptDirectory { Split-Path $MyInvocation.ScriptName }
-$PROMPT_CONFIG = Join-Path (Get-ScriptDirectory) "emodipt-extend.omp.json"
+$PROMPT_CONFIG = Join-Path (Get-ScriptDirectory) "tiwahu.omp.json"
 oh-my-posh --init --shell pwsh --config $PROMPT_CONFIG | Invoke-Expression
 
 # Utilities
@@ -43,7 +43,7 @@ $env:GIT_SSH = "C:\Windows\system32\OpenSSH\ssh.exe"
 
 # Alias
 # issues: add alias for hidden files
-Set-Alias vim nvim
+Set-Alias vi nvim
 Set-Alias ll ls
 Set-Alias g git
 Set-Alias grep findstr
