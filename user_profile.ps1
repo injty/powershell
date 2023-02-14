@@ -29,7 +29,7 @@ Set-PSFzfOption -PSReadLineChordProvider "Ctrl+f" -PSReadLineChordReverseHistory
 # create on ~/.config/powershell nova.omp.json file
 # add inside theme settings
 function Get-ScriptDirectory { Split-Path $MyInvocation.ScriptName }
-$PROMPT_CONFIG = Join-Path (Get-ScriptDirectory) "robbyrussell.omp.json"
+$PROMPT_CONFIG = Join-Path (Get-ScriptDirectory) "star.omp.json"
 oh-my-posh --init --shell pwsh --config $PROMPT_CONFIG | Invoke-Expression
 
 # Utilities
