@@ -2,7 +2,6 @@
 # Install-Module posh-git -Scope CurrentUser -Force
 # Install-Module oh-my-posh -Scope CurrentUser -Force
 Import-Module posh-git
-Import-Module oh-my-posh
 
 # Icons
 # Install-Module -Name Terminal-Icons -Repository PSGallery -Force
