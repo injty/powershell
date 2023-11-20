@@ -6,17 +6,25 @@
       "segments": [
         {
           "background": "#001b26",
-          "foreground": "#fdf6e3",
+          "foreground": "#839496",
           "style": "powerline",
-          "template": "{{ if .WSL }}WSL at{{ end }} {{.Icon}} ",
+          "template": "{{ if .WSL }}WSL at{{ end }} {{.Icon}}  ",
           "type": "os"
+        },
+        {
+          "background": "#b58900",
+          "foreground": "#001b26",
+          "leading_diamond": "<transparent>\ue0b0</>",
+          "style": "diamond",
+          "template": " \uf489  {{ .Name }} ",
+          "type": "shell"
         },
         {
           "background": "#112b36",
           "foreground": "#839496",
           "powerline_symbol": "\ue0b0",
           "properties": {
-            "style": "full"
+            "style": "agnoster_short"
           },
           "style": "powerline",
           "template": " {{ .Path }} ",
@@ -69,7 +77,7 @@
         },
         {
           "background": "#859900",
-          "foreground": "#111111",
+          "foreground": "#001b26",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "display_mode": "files",
@@ -129,7 +137,7 @@
       "type": "prompt"
     }
   ],
-  "console_title_template": "{{ .Folder }}",
+  "console_title_template": "📁  {{ .Folder }} ",
   "final_space": true,
   "version": 2
 }
