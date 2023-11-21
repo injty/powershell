@@ -38,7 +38,7 @@
             "{{ if gt .Ahead 0 }}#B388FF{{ end }}",
             "{{ if gt .Behind 0 }}#B388FF{{ end }}"
           ],
-          "foreground": "#282828",
+          "foreground": "#001b26",
           "leading_diamond": "\ue0b6",
           "powerline_symbol": "\ue0b0",
           "properties": {
@@ -55,7 +55,7 @@
         },
         {
           "background": "#2aa198",
-          "foreground": "#111111",
+          "foreground": "#001b26",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "fetch_version": true
@@ -66,7 +66,7 @@
         },
         {
           "background": "#268bd2",
-          "foreground": "#111111",
+          "foreground": "#001b26",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "fetch_version": true
@@ -89,7 +89,7 @@
         },
         {
           "background": "#dc322f",
-          "foreground": "#ffffff",
+          "foreground": "#f9f9f9",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "display_mode": "files",
@@ -101,7 +101,7 @@
         },
         {
           "background": "#b58900",
-          "foreground": "#ffffff",
+          "foreground": "#f9f9f9",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "display_mode": "files",
@@ -116,7 +116,7 @@
             "{{if contains \"default\" .Profile}}#FFA400{{end}}",
             "{{if contains \"jan\" .Profile}}#f1184c{{end}}"
           ],
-          "foreground": "#ffffff",
+          "foreground": "#f9f9f9",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "display_default": false
@@ -127,7 +127,7 @@
         },
         {
           "background": "#b58900",
-          "foreground": "#111111",
+          "foreground": "#001b26",
           "powerline_symbol": "\ue0b0",
           "style": "powerline",
           "template": " \uf0ad ",
