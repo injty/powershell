@@ -7,6 +7,7 @@
         {
           "background": "#001b26",
           "foreground": "#839496",
+          "powerline_symbol": "\ue0b0",
           "style": "powerline",
           "template": "{{ if .WSL }}WSL at{{ end }} {{.Icon}}  ",
           "type": "os"
@@ -14,8 +15,9 @@
         {
           "background": "#b58900",
           "foreground": "#001b26",
-          "leading_diamond": "<transparent>\ue0b0</>",
-          "style": "diamond",
+          "leading_diamond": "\ue0b0",
+          "powerline_symbol": "\ue0b0",
+          "style": "powerline",
           "template": " \uf489  {{ .Name }} ",
           "type": "shell"
         },
@@ -137,7 +139,7 @@
       "type": "prompt"
     }
   ],
-  "console_title_template": "📁  {{ .Folder }} ",
+  "console_title_template": "{{ .Shell }} in {{ .Folder }}",
   "final_space": true,
   "version": 2
 }
