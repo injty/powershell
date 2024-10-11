@@ -7,13 +7,13 @@
         {
           "foreground": "#E36464",
           "style": "plain",
-          "template": "@{{ .UserName }} ",
+          "template": "@{{ .Shell }}",
           "type": "session"
         },
         {
           "foreground": "#62ED8B",
           "style": "plain",
-          "template": "\u279c",
+          "template": " ⇌ ",
           "type": "text"
         },
         {
@@ -28,10 +28,14 @@
         {
           "foreground": "#D4AAFC",
           "properties": {
-            "branch_icon": ""
+            "branch_max_length": 25,
+            "fetch_stash_count": true,
+            "fetch_status": true,
+            "branch_icon": "\uE0A0 ",
+            "branch_identical_icon": "\u25CF"
           },
           "style": "plain",
-          "template": " <#DDB15F>git(</>{{ .HEAD }}<#DDB15F>)</>",
+          "template": " <#DDB15F>[</>{{ .HEAD }}<#DDB15F>{{ if .Working.Changed }} {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} {{ .StashCount }}{{ end }}]</>",
           "type": "git"
         },
         {
