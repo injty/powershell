@@ -1,0 +1,23 @@
+{
+  "background": "#041B26",
+  "black": "#232323",
+  "blue": "#243840",
+  "brightBlack": "#666666",
+  "brightBlue": "#79B8FF",
+  "brightCyan": "#586E75",
+  "brightGreen": "#859900",
+  "brightPurple": "#B95CD3",
+  "brightRed": "#FF5370",
+  "brightWhite": "#83A1A1",
+  "brightYellow": "#DFC08A",
+  "cursorColor": "#B58900",
+  "cyan": "#586E75",
+  "foreground": "#83A1A1",
+  "green": "#859900",
+  "name": "novasolarized",
+  "purple": "#B95CD3",
+  "red": "#DC322F",
+  "selectionBackground": "#152B36",
+  "white": "#83A1A1",
+  "yellow": "#DFC08A"
+}
