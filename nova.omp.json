@@ -11,7 +11,7 @@
           "type": "session"
         },
         {
-          "foreground": "#62ED8B",
+          "foreground": "#859900",
           "style": "plain",
           "template": "⟩",
           "type": "text"
@@ -39,7 +39,7 @@
           "type": "git"
         },
         {
-          "foreground": "#DCB977",
+          "foreground": "#DFC08A",
           "style": "plain",
           "template": " \uf119",
           "type": "status"
