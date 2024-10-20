@@ -26,7 +26,7 @@
           "type": "path"
         },
         {
-          "foreground": "#D4AAFC",
+          "foreground": "#6c71c4",
           "properties": {
             "branch_max_length": 25,
             "fetch_stash_count": true,
