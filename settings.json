@@ -1,0 +1,154 @@
+{
+  "$help": "https://aka.ms/terminal-documentation",
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "actions": [],
+  "copyFormatting": "none",
+  "copyOnSelect": false,
+  "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+  "keybindings": [
+    {
+      "id": "Terminal.CopyToClipboard",
+      "keys": "ctrl+c"
+    },
+    {
+      "id": "Terminal.FindText",
+      "keys": "ctrl+shift+f"
+    },
+    {
+      "id": "Terminal.PasteFromClipboard",
+      "keys": "ctrl+v"
+    },
+    {
+      "id": "Terminal.DuplicatePaneAuto",
+      "keys": "alt+shift+d"
+    }
+  ],
+  "newTabMenu": [
+    {
+      "type": "remainingProfiles"
+    }
+  ],
+  "profiles": {
+    "defaults": {
+      "colorScheme": "Dark+",
+      "font": {
+        "face": "JetBrains Mono",
+        "features": {
+          "cv01": 1,
+          "cv13": 1,
+          "cv14": 1,
+          "onum": 1,
+          "ss01": 1,
+          "cv10": 1,
+          "cv29": 1,
+          "cv30": 1,
+          "ss09": 1,
+          "cv25": 1,
+          "cv26": 1,
+          "cv32": 1,
+          "cv28": 1
+        },
+        "size": 11
+      },
+      "suppressApplicationTitle": false
+    },
+    "list": [
+      {
+        "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "hidden": false,
+        "name": "Windows PowerShell"
+      },
+      {
+        "commandline": "%SystemRoot%\\System32\\cmd.exe",
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "hidden": false,
+        "name": "Command Prompt"
+      },
+      {
+        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+        "hidden": false,
+        "name": "Azure Cloud Shell",
+        "source": "Windows.Terminal.Azure"
+      },
+      {
+        "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+        "hidden": false,
+        "name": "Git Bash",
+        "source": "Git"
+      }
+    ]
+  },
+  "schemes": [
+    {
+      "background": "#242835",
+      "black": "#232323",
+      "blue": "#3DB0FE",
+      "brightBlack": "#323232",
+      "brightBlue": "#68C7F1",
+      "brightCyan": "#586E75",
+      "brightGreen": "#D5FF80",
+      "brightPurple": "#DFB6EC",
+      "brightRed": "#FF5370",
+      "brightWhite": "#83A1A1",
+      "brightYellow": "#F29E74",
+      "cursorColor": "#717EA3",
+      "cyan": "#586E75",
+      "foreground": "#CCCAC2",
+      "green": "#D5FF80",
+      "name": "ayu mirage zed",
+      "purple": "#9161D2",
+      "red": "#DC322F",
+      "selectionBackground": "#454D65",
+      "white": "#CCCAC2",
+      "yellow": "#D75E37"
+    },
+    {
+      "background": "#05161E",
+      "black": "#232323",
+      "blue": "#243840",
+      "brightBlack": "#666666",
+      "brightBlue": "#79B8FF",
+      "brightCyan": "#586E75",
+      "brightGreen": "#859900",
+      "brightPurple": "#B95CD3",
+      "brightRed": "#FF5370",
+      "brightWhite": "#83A1A1",
+      "brightYellow": "#DFC08A",
+      "cursorColor": "#B58900",
+      "cyan": "#586E75",
+      "foreground": "#83A1A1",
+      "green": "#859900",
+      "name": "novasolarized dark",
+      "purple": "#B95CD3",
+      "red": "#DC322F",
+      "selectionBackground": "#152B36",
+      "white": "#83A1A1",
+      "yellow": "#DFC08A"
+    },
+    {
+      "background": "#041B26",
+      "black": "#232323",
+      "blue": "#243840",
+      "brightBlack": "#666666",
+      "brightBlue": "#79B8FF",
+      "brightCyan": "#586E75",
+      "brightGreen": "#859900",
+      "brightPurple": "#B95CD3",
+      "brightRed": "#FF5370",
+      "brightWhite": "#83A1A1",
+      "brightYellow": "#DFC08A",
+      "cursorColor": "#B58900",
+      "cyan": "#586E75",
+      "foreground": "#83A1A1",
+      "green": "#859900",
+      "name": "novasolarized light",
+      "purple": "#B95CD3",
+      "red": "#DC322F",
+      "selectionBackground": "#152B36",
+      "white": "#83A1A1",
+      "yellow": "#DFC08A"
+    }
+  ],
+  "themes": []
+}
