@@ -1,0 +1,20 @@
+{
+  "name": "NovaSolarized",
+  "tab": {
+    "background": "#05151EFF",
+    "iconStyle": "default",
+    "showCloseButton": "always",
+    "unfocusedBackground": null
+  },
+  "tabRow": {
+    "background": "#08202BFF",
+    "unfocusedBackground": "#19313CFF"
+  },
+  "window": {
+    "applicationTheme": "dark",
+    "experimental.rainbowFrame": false,
+    "frame": null,
+    "unfocusedFrame": null,
+    "useMica": false
+  }
+}

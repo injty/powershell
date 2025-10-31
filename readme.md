@@ -16,3 +16,12 @@ iosevka.
 
 jetbrainsmono nerd font mono.
 [download nerd fonts](https://github.com/ryanoasis/nerd-fonts/releases)
+
+added object from ```themes.json``` inside ```themes``` array in powershell settings:
+```
+"themes": [
+  {
+    ...NovaSolarized themes from {themes.json}
+  }
+]
+```
