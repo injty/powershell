@@ -11,10 +11,6 @@
       "keys": "ctrl+c"
     },
     {
-      "id": "Terminal.FindText",
-      "keys": "ctrl+shift+f"
-    },
-    {
       "id": "Terminal.PasteFromClipboard",
       "keys": "ctrl+v"
     },
@@ -23,6 +19,7 @@
       "keys": "alt+shift+d"
     }
   ],
+  "language": "ru",
   "newTabMenu": [
     {
       "type": "remainingProfiles"
@@ -30,27 +27,15 @@
   ],
   "profiles": {
     "defaults": {
-      "colorScheme": "Dark+",
+      "colorScheme": "novasolarized dark",
+      "cursorShape": "filledBox",
       "font": {
+        "cellHeight": "1.3",
         "face": "JetBrains Mono",
-        "features": {
-          "cv01": 1,
-          "cv13": 1,
-          "cv14": 1,
-          "onum": 1,
-          "ss01": 1,
-          "cv10": 1,
-          "cv29": 1,
-          "cv30": 1,
-          "ss09": 1,
-          "cv25": 1,
-          "cv26": 1,
-          "cv32": 1,
-          "cv28": 1
-        },
-        "size": 11
+        "size": 11,
+        "weight": "light"
       },
-      "suppressApplicationTitle": false
+      "intenseTextStyle": "none"
     },
     "list": [
       {
@@ -81,29 +66,6 @@
   },
   "schemes": [
     {
-      "background": "#242835",
-      "black": "#232323",
-      "blue": "#3DB0FE",
-      "brightBlack": "#323232",
-      "brightBlue": "#68C7F1",
-      "brightCyan": "#586E75",
-      "brightGreen": "#D5FF80",
-      "brightPurple": "#DFB6EC",
-      "brightRed": "#FF5370",
-      "brightWhite": "#83A1A1",
-      "brightYellow": "#F29E74",
-      "cursorColor": "#717EA3",
-      "cyan": "#586E75",
-      "foreground": "#CCCAC2",
-      "green": "#D5FF80",
-      "name": "ayu mirage zed",
-      "purple": "#9161D2",
-      "red": "#DC322F",
-      "selectionBackground": "#454D65",
-      "white": "#CCCAC2",
-      "yellow": "#D75E37"
-    },
-    {
       "background": "#05161E",
       "black": "#232323",
       "blue": "#243840",
@@ -125,30 +87,29 @@
       "selectionBackground": "#152B36",
       "white": "#83A1A1",
       "yellow": "#DFC08A"
-    },
-    {
-      "background": "#041B26",
-      "black": "#232323",
-      "blue": "#243840",
-      "brightBlack": "#666666",
-      "brightBlue": "#79B8FF",
-      "brightCyan": "#586E75",
-      "brightGreen": "#859900",
-      "brightPurple": "#B95CD3",
-      "brightRed": "#FF5370",
-      "brightWhite": "#83A1A1",
-      "brightYellow": "#DFC08A",
-      "cursorColor": "#B58900",
-      "cyan": "#586E75",
-      "foreground": "#83A1A1",
-      "green": "#859900",
-      "name": "novasolarized light",
-      "purple": "#B95CD3",
-      "red": "#DC322F",
-      "selectionBackground": "#152B36",
-      "white": "#83A1A1",
-      "yellow": "#DFC08A"
     }
   ],
-  "themes": []
+  "theme": "NovaSolarized",
+  "themes": [
+    {
+      "name": "NovaSolarized",
+      "tab": {
+        "background": "#05151EFF",
+        "iconStyle": "default",
+        "showCloseButton": "always",
+        "unfocusedBackground": null
+      },
+      "tabRow": {
+        "background": "#08202BFF",
+        "unfocusedBackground": "#19313CFF"
+      },
+      "window": {
+        "applicationTheme": "dark",
+        "experimental.rainbowFrame": false,
+        "frame": null,
+        "unfocusedFrame": null,
+        "useMica": false
+      }
+    }
+  ]
 }
