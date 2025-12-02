@@ -1,20 +1,44 @@
-{
-  "name": "NovaSolarized",
-  "tab": {
-    "background": "#05151EFF",
-    "iconStyle": "default",
-    "showCloseButton": "always",
-    "unfocusedBackground": null
-  },
-  "tabRow": {
-    "background": "#08202BFF",
-    "unfocusedBackground": "#19313CFF"
-  },
-  "window": {
-    "applicationTheme": "dark",
-    "experimental.rainbowFrame": false,
-    "frame": null,
-    "unfocusedFrame": null,
-    "useMica": false
+  {
+    "themes": [
+      {
+        "name": "NovaSolarized",
+        "tab": {
+          "background": "#05151EFF",
+          "iconStyle": "default",
+          "showCloseButton": "always",
+          "unfocusedBackground": null
+        },
+        "tabRow": {
+          "background": "#08202BFF",
+          "unfocusedBackground": "#19313CFF"
+        },
+        "window": {
+          "applicationTheme": "dark",
+          "experimental.rainbowFrame": false,
+          "frame": null,
+          "unfocusedFrame": null,
+          "useMica": false
+        }
+      },
+      {
+        "name": "Min Dark",
+        "tab": {
+          "background": "#212121FF",
+          "iconStyle": "default",
+          "showCloseButton": "always",
+          "unfocusedBackground": null
+        },
+        "tabRow": {
+          "background": "#1A1A1AFF",
+          "unfocusedBackground": "#121212FF"
+        },
+        "window": {
+          "applicationTheme": "dark",
+          "experimental.rainbowFrame": false,
+          "frame": null,
+          "unfocusedFrame": null,
+          "useMica": false
+        }
+      }
+    ]
   }
-}

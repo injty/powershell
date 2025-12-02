@@ -27,12 +27,12 @@
   ],
   "profiles": {
     "defaults": {
-      "colorScheme": "novasolarized dark",
+      "colorScheme": "Min",
       "cursorShape": "filledBox",
       "font": {
         "cellHeight": "1.3",
         "face": "JetBrains Mono",
-        "size": 10,
+        "size": 13,
         "weight": "light",
         "features": {
           "cv01": 1,
@@ -64,23 +64,35 @@
         "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
         "hidden": false,
         "name": "Command Prompt"
-      },
-      {
-        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-        "hidden": false,
-        "name": "Azure Cloud Shell",
-        "source": "Windows.Terminal.Azure"
-      },
-      {
-        "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
-        "hidden": false,
-        "name": "Git Bash",
-        "source": "Git"
       }
     ]
   },
   "schemes": [
     {
+      "name": "Min",
+      "cursorColor": "#E0E0E0",
+      "selectionBackground": "#363636",
+      "background": "#212121",
+      "foreground": "#C0C0C0",
+      "black": "#1A1A1A",
+      "red": "#FF7A84",
+      "green": "#67AB91",
+      "yellow": "#FFAB70",
+      "blue": "#79B8FF",
+      "purple": "#B392F0",
+      "cyan": "#7CAFC2",
+      "white": "#E0E0E0",
+      "brightBlack": "#666666",
+      "brightRed": "#FF7A84",
+      "brightGreen": "#67AB91",
+      "brightYellow": "#FFAB70",
+      "brightBlue": "#79B8FF",
+      "brightPurple": "#B392F0",
+      "brightCyan": "#7CAFC2",
+      "brightWhite": "#FFFFFF"
+    },
+    {
+      "name": "novasolarized dark",
       "background": "#05161E",
       "black": "#232323",
       "blue": "#243840",
@@ -96,7 +108,29 @@
       "cyan": "#586E75",
       "foreground": "#83A1A1",
       "green": "#859900",
-      "name": "novasolarized dark",
+      "purple": "#B95CD3",
+      "red": "#DC322F",
+      "selectionBackground": "#152B36",
+      "white": "#83A1A1",
+      "yellow": "#DFC08A"
+    },
+    {
+      "name": "novasolarized light",
+      "background": "#041B26",
+      "black": "#232323",
+      "blue": "#243840",
+      "brightBlack": "#666666",
+      "brightBlue": "#79B8FF",
+      "brightCyan": "#586E75",
+      "brightGreen": "#859900",
+      "brightPurple": "#B95CD3",
+      "brightRed": "#FF5370",
+      "brightWhite": "#83A1A1",
+      "brightYellow": "#DFC08A",
+      "cursorColor": "#B58900",
+      "cyan": "#586E75",
+      "foreground": "#83A1A1",
+      "green": "#859900",
       "purple": "#B95CD3",
       "red": "#DC322F",
       "selectionBackground": "#152B36",
@@ -104,7 +138,7 @@
       "yellow": "#DFC08A"
     }
   ],
-  "theme": "NovaSolarized",
+  "theme": "Min Dark",
   "themes": [
     {
       "name": "NovaSolarized",
@@ -117,6 +151,26 @@
       "tabRow": {
         "background": "#08202BFF",
         "unfocusedBackground": "#19313CFF"
+      },
+      "window": {
+        "applicationTheme": "dark",
+        "experimental.rainbowFrame": false,
+        "frame": null,
+        "unfocusedFrame": null,
+        "useMica": false
+      }
+    },
+    {
+      "name": "Min Dark",
+      "tab": {
+        "background": "#212121FF",
+        "iconStyle": "default",
+        "showCloseButton": "always",
+        "unfocusedBackground": null
+      },
+      "tabRow": {
+        "background": "#1A1A1AFF",
+        "unfocusedBackground": "#121212FF"
       },
       "window": {
         "applicationTheme": "dark",
