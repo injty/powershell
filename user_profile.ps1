@@ -31,20 +31,23 @@ Import-Module Z
 # $PROMPT_CONFIG = Join-Path (Get-ScriptDirectory) "nova.omp.json"
 # oh-my-posh --init --shell pwsh --config $PROMPT_CONFIG | Invoke-Expression
 
-# Utilities
-function which ($command) {
-  Get-Command -Name $command -ErrorAction SilentlyContinue |
-    Select-Object -ExpandProperty Path -ErrorAction SilentlyContinue
-}
-
 # Env
 $env:GIT_SSH = "C:\Windows\system32\OpenSSH\ssh.exe"
 
 # Alias
 # issues: add alias for hidden files
 Set-Alias vi nvim
-Set-Alias ll ls
 Set-Alias g git
 Set-Alias grep findstr
 Set-Alias tig "C:\Program Files\Git\usr\bin\tig.exe"
 Set-Alias less "C:\Program Files\Git\usr\bin\less.exe"
+
+# Utilities
+# aliases with arguments
+function ll { Get-ChildItem }
+function lh { Get-ChildItem -Force }
+function o { explorer.exe . }
+function which ($command) {
+  Get-Command -Name $command -ErrorAction SilentlyContinue |
+    Select-Object -ExpandProperty Path -ErrorAction SilentlyContinue
+}
