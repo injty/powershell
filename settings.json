@@ -5,6 +5,7 @@
   "copyFormatting": "none",
   "copyOnSelect": false,
   "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+  "initialCols": 105,
   "keybindings": [
     {
       "id": "Terminal.CopyToClipboard",
@@ -19,7 +20,7 @@
       "keys": "alt+shift+d"
     }
   ],
-  "language": "ru",
+  "language": "en-US",
   "newTabMenu": [
     {
       "type": "remainingProfiles"
@@ -27,30 +28,17 @@
   ],
   "profiles": {
     "defaults": {
-      "colorScheme": "Min",
+      "colorScheme": "novasolarized dark",
       "cursorShape": "filledBox",
       "font": {
         "cellHeight": "1.3",
-        "face": "JetBrains Mono",
-        "size": 13,
-        "weight": "light",
-        "features": {
-          "cv01": 1,
-          "cv13": 1,
-          "cv14": 1,
-          "onum": 1,
-          "ss01": 1,
-          "cv10": 1,
-          "cv29": 1,
-          "cv30": 1,
-          "ss09": 1,
-          "cv25": 1,
-          "cv26": 1,
-          "cv32": 1,
-          "cv28": 1
-        }
+        "face": "Iosevka Slab",
+        "size": 11,
+        "weight": "normal"
       },
-      "intenseTextStyle": "none"
+      "intenseTextStyle": "none",
+      "opacity": 38,
+      "useAcrylic": true
     },
     "list": [
       {
@@ -69,30 +57,52 @@
   },
   "schemes": [
     {
-      "name": "Min",
-      "cursorColor": "#E0E0E0",
-      "selectionBackground": "#363636",
-      "background": "#212121",
-      "foreground": "#C0C0C0",
-      "black": "#1A1A1A",
-      "red": "#FF7A84",
-      "green": "#67AB91",
-      "yellow": "#FFAB70",
-      "blue": "#79B8FF",
-      "purple": "#B392F0",
-      "cyan": "#7CAFC2",
-      "white": "#E0E0E0",
-      "brightBlack": "#666666",
-      "brightRed": "#FF7A84",
-      "brightGreen": "#67AB91",
-      "brightYellow": "#FFAB70",
-      "brightBlue": "#79B8FF",
-      "brightPurple": "#B392F0",
-      "brightCyan": "#7CAFC2",
-      "brightWhite": "#FFFFFF"
+      "background": "#1E1E2E",
+      "black": "#45475A",
+      "blue": "#89B4FA",
+      "brightBlack": "#585B70",
+      "brightBlue": "#89B4FA",
+      "brightCyan": "#94E2D5",
+      "brightGreen": "#A6E3A1",
+      "brightPurple": "#F5C2E7",
+      "brightRed": "#F38BA8",
+      "brightWhite": "#A6ADC8",
+      "brightYellow": "#F9E2AF",
+      "cursorColor": "#F5E0DC",
+      "cyan": "#94E2D5",
+      "foreground": "#CDD6F4",
+      "green": "#A6E3A1",
+      "name": "Catppuccin Mocha",
+      "purple": "#F5C2E7",
+      "red": "#F38BA8",
+      "selectionBackground": "#585B70",
+      "white": "#BAC2DE",
+      "yellow": "#F9E2AF"
     },
     {
-      "name": "novasolarized dark",
+      "background": "#212121",
+      "black": "#1A1A1A",
+      "blue": "#79B8FF",
+      "brightBlack": "#666666",
+      "brightBlue": "#79B8FF",
+      "brightCyan": "#7CAFC2",
+      "brightGreen": "#67AB91",
+      "brightPurple": "#B392F0",
+      "brightRed": "#FF7A84",
+      "brightWhite": "#FFFFFF",
+      "brightYellow": "#FFAB70",
+      "cursorColor": "#E0E0E0",
+      "cyan": "#7CAFC2",
+      "foreground": "#C0C0C0",
+      "green": "#67AB91",
+      "name": "Min",
+      "purple": "#B392F0",
+      "red": "#FF7A84",
+      "selectionBackground": "#363636",
+      "white": "#E0E0E0",
+      "yellow": "#FFAB70"
+    },
+    {
       "background": "#05161E",
       "black": "#232323",
       "blue": "#243840",
@@ -108,6 +118,7 @@
       "cyan": "#586E75",
       "foreground": "#83A1A1",
       "green": "#859900",
+      "name": "novasolarized dark",
       "purple": "#B95CD3",
       "red": "#DC322F",
       "selectionBackground": "#152B36",
@@ -115,7 +126,6 @@
       "yellow": "#DFC08A"
     },
     {
-      "name": "novasolarized light",
       "background": "#041B26",
       "black": "#232323",
       "blue": "#243840",
@@ -131,6 +141,7 @@
       "cyan": "#586E75",
       "foreground": "#83A1A1",
       "green": "#859900",
+      "name": "novasolarized light",
       "purple": "#B95CD3",
       "red": "#DC322F",
       "selectionBackground": "#152B36",
@@ -138,19 +149,20 @@
       "yellow": "#DFC08A"
     }
   ],
-  "theme": "Min Dark",
+  "tabWidthMode": "titleLength",
+  "theme": "NovaSolarized Theme",
   "themes": [
     {
-      "name": "NovaSolarized",
+      "name": "Catppuccin Mocha",
       "tab": {
-        "background": "#05151EFF",
+        "background": "#1E1E2EFF",
         "iconStyle": "default",
         "showCloseButton": "always",
         "unfocusedBackground": null
       },
       "tabRow": {
-        "background": "#08202BFF",
-        "unfocusedBackground": "#19313CFF"
+        "background": "#181825FF",
+        "unfocusedBackground": "#11111BFF"
       },
       "window": {
         "applicationTheme": "dark",
@@ -171,6 +183,26 @@
       "tabRow": {
         "background": "#1A1A1AFF",
         "unfocusedBackground": "#121212FF"
+      },
+      "window": {
+        "applicationTheme": "dark",
+        "experimental.rainbowFrame": false,
+        "frame": null,
+        "unfocusedFrame": null,
+        "useMica": false
+      }
+    },
+    {
+      "name": "NovaSolarized Theme",
+      "tab": {
+        "background": "#05151EFF",
+        "iconStyle": "default",
+        "showCloseButton": "always",
+        "unfocusedBackground": null
+      },
+      "tabRow": {
+        "background": "#08202BFF",
+        "unfocusedBackground": "#001B26FF"
       },
       "window": {
         "applicationTheme": "dark",

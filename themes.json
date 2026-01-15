@@ -1,7 +1,7 @@
   {
     "themes": [
       {
-        "name": "NovaSolarized",
+        "name": "NovaSolarized Theme",
         "tab": {
           "background": "#05151EFF",
           "iconStyle": "default",
@@ -10,7 +10,7 @@
         },
         "tabRow": {
           "background": "#08202BFF",
-          "unfocusedBackground": "#19313CFF"
+          "unfocusedBackground": "#001B26FF"
         },
         "window": {
           "applicationTheme": "dark",
