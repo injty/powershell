@@ -1,0 +1,67 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "version": 3,
+  "final_space": true,
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "node",
+          "style": "plain",
+          "foreground": "#A6E3A1",
+          "template": "<#585B70>[</><#A6E3A1>node ⟩ v{{ .Full }}</><#585B70>]</> ",
+          "options": {
+            "display_mode": "always",
+            "home_enabled": true
+          }
+        },
+        {
+          "type": "path",
+          "style": "plain",
+          "foreground": "#89DCEB",
+          "template": "<#585B70>[</><#89DCEB>{{ .Path }}</><#585B70>]</> ",
+          "options": {
+            "style": "full",
+            "mapped_locations_enabled": false
+          }
+        },
+        {
+          "type": "git",
+          "style": "plain",
+          "foreground": "#CBA6F7",
+          "template": "<#585B70>[</><#CBA6F7>git ⟩ {{ .HEAD }}</>{{ if or .Working.Changed .Staging.Changed }}<#A6ADC8>, </>{{ if .Working.Changed }}{{ .Working.String }}{{ end }}{{ if and .Working.Changed .Staging.Changed }}<#A6ADC8> | </>{{ end }}{{ if .Staging.Changed }}<#A6E3A1>staged: </>{{ .Staging.String }}{{ end }}{{ end }}<#585B70>]</> ",
+          "options": {
+            "fetch_status": true,
+            "status_formats": {
+              "Added": "<#A6E3A1>+%d</>",
+              "Modified": "<#F9E2AF>~%d</>",
+              "Untracked": "<#F9E2AF>?%d</>",
+              "Deleted": "<#F38BA8>-%d</>",
+              "Unmerged": "<#F38BA8>!%d</>"
+            },
+            "branch_icon": "\uE0A0 ",
+            "branch_identical_icon": "\u25CF",
+            "commit_icon": "@",
+            "tag_icon": "tag:",
+            "rebase_icon": "rebase:",
+            "cherry_pick_icon": "pick:",
+            "revert_icon": "revert:",
+            "merge_icon": "merge:",
+            "no_commits_icon": ""
+          }
+        },
+        {
+          "type": "status",
+          "style": "plain",
+          "foreground": "#A6ADC8",
+          "template": "<#585B70>[</><#A6ADC8>± {{ if gt .Code 0 }}<#F38BA8>{{ .Code }}</>{{ else }}{{ .Code }}{{ end }}</><#585B70>]</>",
+          "options": {
+            "always_enabled": true
+          }
+        }
+      ]
+    }
+  ]
+}
