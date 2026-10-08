@@ -31,7 +31,7 @@
           "type": "git",
           "style": "plain",
           "foreground": "#CBA6F7",
-          "template": "<#585B70>[</><#CBA6F7>git ⟩ {{ .HEAD }}</>{{ if or .Working.Changed .Staging.Changed }}<#A6ADC8>, </>{{ if .Working.Changed }}{{ .Working.String }}{{ end }}{{ if and .Working.Changed .Staging.Changed }}<#A6ADC8> | </>{{ end }}{{ if .Staging.Changed }}<#A6E3A1>staged: </>{{ .Staging.String }}{{ end }}{{ end }}<#585B70>]</> ",
+          "template": "<#585B70>[</><#CBA6F7>git ⟩ {{ .HEAD }}</>{{ if .Working.Changed }}<#A6ADC8>, unstaged: </>{{ .Working.String }}{{ end }}{{ if .Staging.Changed }}{{ if .Working.Changed }}<#A6ADC8> | staged: </>{{ else }}<#A6ADC8>, staged: </>{{ end }}{{ .Staging.String }}{{ end }}<#585B70>]</> ",
           "options": {
             "fetch_status": true,
             "status_formats": {
